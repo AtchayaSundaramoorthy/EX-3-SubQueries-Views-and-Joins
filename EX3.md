@@ -75,7 +75,8 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 ```CREATE VIEW details AS SELECT ENAME FROM EMP WHERE SAL >(select SAL from EMP where EMPNO=7566);
 ```
 ### OUTPUT:
-![Listing](https://github.com/Jeevapriya14/EX-3-SubQueries-Views-and-Joins/assets/121003043/33dd7af3-fc05-45a1-8a04-f7beec82079b)
+![dbms q1 op](https://github.com/AtchayaSundaramoorthy/EX-3-SubQueries-Views-and-Joins/assets/119393516/9983777e-9def-4972-861c-ac88ced48243)
+
 
 ### Q2) List the ename,job,sal of the employee who get minimum salary in the company.
 
