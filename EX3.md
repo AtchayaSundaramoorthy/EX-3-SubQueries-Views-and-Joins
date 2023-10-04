@@ -81,11 +81,14 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 ### Q2) List the ename,job,sal of the employee who get minimum salary in the company.
 
 ### QUERY:
+![dbms q2 query](https://github.com/AtchayaSundaramoorthy/EX-3-SubQueries-Views-and-Joins/assets/119393516/4c38eaa0-40ba-4166-a783-459fddb40895)
+
  ```CREATE VIEW minimum AS select ENAME,JOB,SAL from EMP where SAL =(select MIN(SAL) from EMP);
 ```
 
 ### OUTPUT:
-![Listing](https://github.com/Jeevapriya14/EX-3-SubQueries-Views-and-Joins/assets/121003043/2f4b3986-1376-497b-a855-1bf278179c28)
+![dbms q2 op](https://github.com/AtchayaSundaramoorthy/EX-3-SubQueries-Views-and-Joins/assets/119393516/3df1901b-b3c0-42f2-8eed-c021b0f8a64a)
+
 
 ### Q3) List ename, job of the employees who work in deptno 10 and his/her job is any one of the job in the department ‘SALES’.
 
