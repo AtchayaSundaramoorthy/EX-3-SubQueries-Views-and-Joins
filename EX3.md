@@ -69,6 +69,8 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 
 
 ### QUERY:
+![dbms q1 query](https://github.com/AtchayaSundaramoorthy/EX-3-SubQueries-Views-and-Joins/assets/119393516/15027446-ebd9-4271-8f5e-e0e6c1222587)
+
 
 ```CREATE VIEW details AS SELECT ENAME FROM EMP WHERE SAL >(select SAL from EMP where EMPNO=7566);
 ```
