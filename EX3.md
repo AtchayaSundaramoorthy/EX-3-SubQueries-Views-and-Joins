@@ -123,7 +123,8 @@ create view empv30 AS select EMPNO,ENAME,SAL from EMP where DEPTNO=30;
 ```
 
 ### OUTPUT:
-![image](https://github.com/AtchayaSundaramoorthy/EX-3-SubQueries-Views-and-Joins/assets/119393516/9c95b6fb-986b-43ca-ae9f-e554aee5c1ad)
+![image](https://github.com/AtchayaSundaramoorthy/EX-3-SubQueries-Views-and-Joins/assets/119393516/99957983-676a-4f38-b824-bcaf35115b50)
+
 
 
 
@@ -136,7 +137,8 @@ update EMP set SAL=SAL*1.1 WHERE JOB='clerk';
 create view empv8 as select EMPNO,ENAME,SAL,JOB from EMP;
 ```
 ### OUTPUT:
-![image](https://github.com/AtchayaSundaramoorthy/EX-3-SubQueries-Views-and-Joins/assets/119393516/497e9976-d3de-47cf-9a23-cccc58748e84)
+![image](https://github.com/AtchayaSundaramoorthy/EX-3-SubQueries-Views-and-Joins/assets/119393516/9f9cbbe5-bedc-4e8f-aac4-55224d49124b)
+
 
 
 ## Create a Customer1 Table
