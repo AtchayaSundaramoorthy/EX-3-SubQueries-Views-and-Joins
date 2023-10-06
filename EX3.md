@@ -224,3 +224,5 @@ SELECT * FROM salesman1 RIGHT JOIN customer1 ON salesman1.salesman_id=customer1.
 ### OUTPUT FOR RIGHT JOIN:
 ![image](https://github.com/AtchayaSundaramoorthy/EX-3-SubQueries-Views-and-Joins/assets/119393516/bb3b7f79-d525-41b3-b0ad-5a0df83760aa)
 
+### RESULT;
+ Queries Executed Successfully.
